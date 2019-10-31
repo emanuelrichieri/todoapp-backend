@@ -28,10 +28,10 @@ psql -h <host> -d <database> -U <user_name> -p <port> -a -w -f ./database-sql/to
 
 ### Endpoints
 
-GET /api/v1/tasks --> obtener listado de tareas. Admite query parameters id, descripcion y status
-GET /api/v1/tasks/:id --> obtener tarea con id=:id
-POST /api/v1/tasks --> guardar una tarea nueva o existente.
-PUT /api/v1/tasks/:id/resolved --> marcar tarea con id=:id como resuelta.
+- GET /api/v1/tasks --> obtener listado de tareas. Admite query parameters id, descripcion y status
+- GET /api/v1/tasks/:id --> obtener tarea con id=:id
+- POST /api/v1/tasks --> guardar una tarea nueva o existente.
+- PUT /api/v1/tasks/:id/resolved --> marcar tarea con id=:id como resuelta.
 
 ### Autor
 Emanuel Richieri <emanuel.richieri@gmail.com>
